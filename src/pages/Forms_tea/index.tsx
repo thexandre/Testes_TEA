@@ -918,7 +918,7 @@ const Forms_tea: React.FC = () => {
             </div>
           );
         })}
-        <Button type="submit">Enviar</Button>
+        <Button type="submit">Resultado</Button>
       </form>
     </Container>
   );
