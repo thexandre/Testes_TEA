@@ -25,8 +25,8 @@ return (
             onChange={handleChangeTheme}
         />
         <Profile>
-            <Welcome>Olá,</Welcome>
-            <UserName>Alexandre Leite</UserName>
+            <Welcome>Olá</Welcome>
+            <UserName></UserName>
         </Profile>
 
     </Container>
