@@ -16,7 +16,7 @@ const Aside: React.FC = () => {
     <Container>
       <Header>
         <LogImg src={logImg} alt="Logo Forms TEA" />
-        <Title>Testes Tea</Title>
+        <Title>Testes TEA</Title>
       </Header>
 
       <MenuContainer>
