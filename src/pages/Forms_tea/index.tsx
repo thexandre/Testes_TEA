@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
 import ContentHeader from '../../components/ContentHeader';
-import { Container,button } from './styles';
+import { Container} from './styles';
 import './Formulario.css';
 import ReactPlayer from 'react-player';
 import Button from '../../components/Button';
