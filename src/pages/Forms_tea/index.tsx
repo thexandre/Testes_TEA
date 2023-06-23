@@ -865,7 +865,7 @@ const Forms_tea: React.FC = () => {
         .join('\n');
 
       const soma = Object.values(respostas).reduce((acc, curr) => acc + curr, 0);
-      const respostaFinal = `${respostaString}\nSoma das respostas: ${soma}`;
+      const respostaFinal = `${respostaString}\nTotal: ${soma}`;
 
       // Calcular totais por área
       const areas = Array.from(new Set(perguntas.map((perguntaObj) => perguntaObj.area)));
@@ -880,7 +880,7 @@ const Forms_tea: React.FC = () => {
 
       const link = document.createElement('a');
       link.href = 'data:text/plain;charset=utf-8,' + encodeURIComponent(respostaFinalComTotais);
-      link.download = 'respostas.txt';
+      link.download = 'Pontos_RAADS–R.txt';
       link.click();
     }
   };
