@@ -786,7 +786,7 @@ const perguntasSecao11 = [
   },
 ];
 
-const Forms_tea: React.FC = () => {
+const Forms_tea_2: React.FC = () => {
   const [respostas, setRespostas] = useState({});
 
   const handleRespostaChange = (pergunta: string, resposta: string) => {
@@ -1124,4 +1124,4 @@ const Forms_tea: React.FC = () => {
   );
 };
 
-export default Forms_tea;
+export default Forms_tea_2;
